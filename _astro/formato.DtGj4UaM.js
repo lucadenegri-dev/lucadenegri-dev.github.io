@@ -1,0 +1,1 @@
+new Intl.DisplayNames([`it`],{type:`region`});function e(e){return e.toLowerCase().replaceAll(`½`,` 1 2 `).normalize(`NFD`).replace(/\p{M}+/gu,``).replace(/[^\p{L}\p{N}]+/gu,` `).trim()}export{e as t};
